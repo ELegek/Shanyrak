@@ -1,0 +1,58 @@
+.about {
+    padding: 70px 0;
+}
+
+.about__inner {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about__item {
+    width: 420px;
+}
+
+.about__title {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    color: #10212B;
+
+    margin-bottom: 40px;
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        height: 3px;
+        width: 60px;
+        background-color: #10212B;
+
+    }
+}
+
+.about__suptitle {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #10212B;
+
+    margin-bottom: 20px;
+
+    span {
+        font-weight: 700;
+    }
+}
+
+.about__text {
+    font-size: 18px;
+    line-height: 21px;
+    color: #828282;
+}
+
+.about__context {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    color: #828282;
+}
