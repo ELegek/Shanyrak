@@ -42,7 +42,7 @@
     background-position: center;
 }
 
-.slider-btn {
+.slider .slider-btn {
     padding: 10px 16px;
     border: none;
     background: rgba(255, 255, 255, 0.7);
@@ -50,9 +50,18 @@
     z-index: 10;
     position: absolute;
     bottom: 10px;
+    left: 100px;
     outline: none;
+
 }
 
-.slider-btn .slider-btn__left {
-    right: 50px;
+.slider .slider-btn__left {
+    left: 365px; 
 }
+
+.slider .slider-btn__right {
+    left: 408px; 
+}
+
+
+

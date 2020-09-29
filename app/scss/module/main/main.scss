@@ -1,17 +1,10 @@
-.main {
-    height: 530px;
-    position: absolute;
-    z-index: 5;
-    left: 0;
-    right: 0;
-}
 
-.main__content {
-    width: 410px;
+.slider .main__content {
+    width: 622px;
     position: relative;
 }
 
-.main__content-subtitle {
+.slider .main__content-subtitle {
     margin: 71px 0 5px;
 
     color: #2FB0C6;
@@ -20,7 +13,7 @@
     line-height: 30px;
 }
 
-.main__content-title {
+.slider .main__content-title {
     font-weight: 500;
     font-size: 64px;
     line-height: 76px;
@@ -30,7 +23,7 @@
     margin-bottom: 11px;
 }
 
-.main__content-text {
+.slider .main__content-text {
     font-size: 24px;
     line-height: 28px;
     color: #B5EAF8;
