@@ -16,22 +16,7 @@
 }
 
 .program__title {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 43px;
-    color: #10212B;
-
-    position: relative;
-    margin: 60px 0 45px;
-
-    &:before {
-        content: "";
-        position: absolute;
-        bottom: -5px;
-        width: 60px;
-        height: 3px;
-        background-color: #10212B;
-    }
+    margin-top: 60px;
 }
 
 .program__info {

@@ -1,0 +1,35 @@
+.crisis__inner {
+    display: flex;
+    position: relative;
+}
+
+.crisis__item {
+    width: 50%;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.crisis__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 90px;
+    bottom: 0;
+}
+
+.crisis__body {
+    width: 30%;
+}
+
+.crisis__text {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    color: #828282;
+    margin-bottom: 30px;
+}

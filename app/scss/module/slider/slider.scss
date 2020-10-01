@@ -54,13 +54,18 @@
 
 }
 
-.slider .slider-btn__left {
-    left: 368px; 
-}
-
 .slider .slider-btn__right {
-    left: 411px; 
+    left: 58px;
 }
 
+.slider .btn-container {
+    position: absolute;
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    bottom: 0;
+    left: 0;
+    right: 0px;
+}
 
 
