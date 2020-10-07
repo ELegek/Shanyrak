@@ -1,6 +1,6 @@
 .registration {
     background-color: #E5E5E5;
-    padding: 70px 0;
+    padding: 70px 0 20px;
 }
 
 .registration__inner {
@@ -16,10 +16,25 @@
 .registration__item-left {
     background-color: #fff;
     padding: 50px;
+
+
 }
 
 .registration__item-right {
     padding-left: 30px;
+
+    p {
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 150%;
+        color: #828282;
+
+        margin-bottom: 10px;
+
+        span {
+            font-weight: 700;
+        }
+    }
 }
 
 .registration__img {
@@ -35,4 +50,60 @@
     line-height: 150%;
     color: #333333;
     margin-bottom: 20px;
+}
+
+.registration__text {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #10212B;
+
+    margin-bottom: 20px;
+}
+
+.registration__p {
+    font-size: 18px;
+    line-height: 150%;
+    color: #333333;
+
+    margin-bottom: 15px;
+}
+
+.registration__wrapper-text {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #828282;
+
+    padding-left: 35px;
+    padding-bottom: 15px;
+
+    position: relative;
+
+    &:before {
+        content: url(../../../images/registration__check.svg);
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 18px;
+        height: 15px;
+    }
+
+    span {
+        font-weight: 700;
+    }
+}
+
+.registration__item {
+    width: 50%;
+    padding: 30px;
+
+    p {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        color: #333333;
+        margin-bottom: 20px;
+    }
 }
