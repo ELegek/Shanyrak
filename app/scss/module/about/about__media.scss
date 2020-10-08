@@ -1,0 +1,33 @@
+@media (max-width: 890px) {
+    .about__item {
+        width: 40%;
+    }
+
+    .about__title {
+        font-size: 32px;
+    }
+
+    .about__suptitle {
+        font-size: 20px;
+    }
+
+    .about__text {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 580px) {
+
+    .about {
+        padding: 20px 0;
+    }
+    .about__inner {
+        flex-wrap: wrap;
+    }
+
+    .about__item {
+        width: 100%;
+
+        margin-bottom: 30px;
+    }
+}
