@@ -4,10 +4,12 @@
 
 .aside__inner {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .aside__item {
-    width: 430px;
+    width: 33.3333%;
+    max-width: 430px;
     height: 340px;
 
     background-position: center;
