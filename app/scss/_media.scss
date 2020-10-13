@@ -11,4 +11,25 @@
 @import "module/target/target__media";
 @import "module/social-program/social-program__media";
 @import "module/program__input/program__input__media";
+@import "module/description/description__media";
+
+@media (max-width:990px) {
+    .title {
+        font-size: 32px;
+    }
+}
+
+@media (max-width:990px) {
+    .title {
+        font-size: 28px;
+        line-height: 22px;
+    }
+}
+
+@media (max-width:420px) {
+    .title {
+        font-size: 22px;
+    }
+}
+
 
