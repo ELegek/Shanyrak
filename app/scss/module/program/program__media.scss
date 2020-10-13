@@ -17,6 +17,14 @@
 }
 
 @media (max-width: 700px) {
+
+    .program {
+        padding: 20px 0;
+    }
+
+    .program__title {
+        margin-top: 0;
+    }
     .program__inner {
         flex-wrap: wrap;
         justify-content: center;
