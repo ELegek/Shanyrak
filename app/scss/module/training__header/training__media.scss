@@ -1,0 +1,44 @@
+@media (max-width: 1240px) {
+    .training {
+        padding-bottom: 60px;
+
+        .crisis__container {
+            position: relative;
+        }
+
+        .crisis__item:last-child {
+            display: none;
+        }
+
+        .crisis__body {
+            width: 100%;
+        }
+
+        .crisis__item:first-child {
+            width: 100%;
+
+            text-align: center;
+        }
+
+        .training__wrapper {
+            justify-content: space-around;
+        }
+    }
+}
+
+@media (max-width: 810px) {
+    .training {
+        .crisis__title {
+            max-width: 500px;
+            margin: 0 auto 30px;
+        }
+    }
+}
+
+@media (max-width: 420px) {
+
+    .training__number {
+        font-size: 40px;
+    }
+
+}
