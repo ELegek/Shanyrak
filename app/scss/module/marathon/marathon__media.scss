@@ -1,0 +1,12 @@
+@media (max-width: 1125px) {
+    .marathon__wrapper {
+        flex-wrap: wrap;
+    }
+
+    .marathon__item {
+        width: 100%;
+        max-width: 100%;
+
+        margin-bottom: 20px;
+    }
+}

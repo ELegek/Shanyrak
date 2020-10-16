@@ -1,0 +1,30 @@
+.panel {
+    position: relative;
+    padding: 75px 0px;
+}
+
+.panel__item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+
+    padding: 30px 70px;
+
+    background: #10212B;
+    width: 750px;
+}
+
+.panel__item-title {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    color: #FFF;
+
+    width: 370px;
+}
