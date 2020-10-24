@@ -21,4 +21,38 @@ $(function () {
     };
 
 
+    // Popup window
+    const modalCall = $('[data-modal]');
+    const modalClose = $('[data-close]');
+
+    modalCall.on('click', function(event) {
+        event.preventDefault();
+
+        let $this = $(this);
+        let modalId = $this.data('modal');
+
+        $(modalId).addClass('open');
+        $('body').addClass('no-scroll');
+    });
+
+    modalClose.on('click', function(event) {
+        event.preventDefault();
+
+        let $this = $(this);
+        let modalParent = $this.parents('.popup');
+
+        modalParent.removeClass('open');
+        $('body').removeClass('no-scroll');
+    });
+
+    $('.popup__body').on('click', function(event) {
+        $('.popup').removeClass('open');
+        $('body').removeClass('no-scroll');
+    });
+
+    $('.popup__content').on('click', function(event) {
+        event.stopPropagation();
+    });
+
+
 });

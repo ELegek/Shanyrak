@@ -36,6 +36,11 @@ body {
     position: relative;
     font-family: 'Rubik', sans-serif;
     // font-family: 'Marck Script', cursive;
+
+    &.no-scroll {
+        overflow: hidden;
+        
+    }
 }
 
 .container {
@@ -55,6 +60,8 @@ body {
     border-radius: 5px;
     border: none;
     cursor: pointer;
+    display: block;
+    
 
     font-weight: 500;
     font-size: 16px;
