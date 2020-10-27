@@ -43,6 +43,15 @@ body {
     }
 }
 
+body.lock {
+    overflow: hidden;
+}
+
+.wrapper {
+    overflow: hidden;
+    min-height: 100%;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -54,14 +63,16 @@ body {
 }
 
 .btn {
-    width: 218px;
-    height: 59px;
+    display: inline-block;
+    min-width: 218px;
+    
     background: #FFFFFF;
     border-radius: 5px;
     border: none;
     cursor: pointer;
-    display: block;
-    
+    padding: 20px 15px;
+
+    vertical-align: top;
 
     font-weight: 500;
     font-size: 16px;
@@ -75,13 +86,17 @@ body {
         background: #2FB0C6;
         color: #fff;
     }
+
+    &:focus {
+        outline: none;
+    }
 }
 
 .btn__small {
-    height: 40px; 
+    display: inline-block;
     background: #1C5870;
     border-radius: 5px;
-    padding: 8px 30px;
+    padding: 10px 30px;
     border: none;
     cursor: pointer;
 
@@ -94,6 +109,10 @@ body {
 
     &:hover {
         background: #2FB0C6;
+    }
+
+    &:focus {
+        outline: none;
     }
 
 }
